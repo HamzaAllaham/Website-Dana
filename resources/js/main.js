@@ -41,18 +41,6 @@ for (let i = 0; i < navElemArr.length; i++) {
 
 
 
-const select = document.querySelector(".dropdown-header");
-const options = document.querySelectorAll(".dropdown-header option");
- 
-// 1
-select.addEventListener("change", function() {
-  const url = this.options[this.selectedIndex].dataset.url;
-  if(url) {
-    localStorage.setItem("url", url);
-    location.href = url;
-  }
-});
- 
 
 
 
