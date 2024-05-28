@@ -1595,7 +1595,7 @@ height: 60px;
   }
 
   .twt-icon:hover{
-    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDeCWwCuWps4bpg1E3NcPX-aiD6QubIC9kl9QOl4vt-KlZfik3QyW-kDy-ALYBsSkvwZUwCnGAcmgbB6uyMBmHkao4zt7tEKOHRIhuet3UaeLcBu_X6QOg5C0Q3j1C0zPE3YUlgP_0AWWpU0AGmA4iN9WNtlyYS9ZprDKTnbHt4S-BjaksrK7J_Krthv1q/s1600/twitter%20(7)%201.png") no-repeat;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp6NvivK0oWgU95LjHxF48u8xOqEd8-FEhg4EdfJQKeAW_-77sUAFH-cSsHPVnuzDnQoLKOlzqaheli_Xh1noEcz2hI0i28HCy9vLUF_yTD8SYmxkoS2kd4nXCF3VhW3tea9CYiTOQKsRX_1nPH5mfVss7kyHmELc0sdzXyOjC2J8_fJzF8SlC9x3fe5Qi/s1600/twitter%20(7)%202.png") no-repeat;
     transition: 0.2s;
     background-position:center;
     height:20px ;
@@ -1665,16 +1665,6 @@ height: 60px;
     
   }
   
-  .vote-btn:hover,
-  .vote-btn:active {
-    background-color: #b8165c;
-    background-position: 0 0;
-    transition: 0.3s;
-  }
-  
-  .vote-btn:active {
-    opacity: .5;
-  }
 
 
 
@@ -2239,10 +2229,11 @@ height: 60px;
 
 
   .video-game-container{
-    background: #fff;
+    
     padding: 0;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
     overflow: hidden;
     max-width: 800px;
     width: 100%;
@@ -2572,6 +2563,16 @@ height: 60px;
     transform: translateX(.25rem);
   
   }
+
+
+
+
+
+
+  .video-div{
+    display: flex;
+    justify-content: center;
+  }
   
   
   
@@ -2659,7 +2660,7 @@ height: 60px;
   .game-worlds-div{
     
     display: flex;
-    align-items: center;
+    
     justify-content: center;
   }
 
@@ -2669,6 +2670,7 @@ height: 60px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-top: 200px
   }
   
   .card-world {
@@ -2681,12 +2683,14 @@ height: 60px;
     padding: 0 36px;
     perspective: 2500px;
     margin: 0 50px;
+    margin-top: 50px;
   }
   
   .cover-world {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 15px;
   }
   
   .wrapper-world {
@@ -2752,7 +2756,7 @@ height: 60px;
   }
   
   .character-world {
-    width: 100%;
+    width: 70%;
     opacity: 0;
     transition: all 0.5s;
     position: absolute;
@@ -2963,7 +2967,7 @@ width: 200px;
 }
 
 .go-top:is(:hover, :focus) {
-  background: #F1D301;
+  background: #2102cf;
   color: white;
 }
   
@@ -3169,7 +3173,7 @@ width: 200px;
   }
   
   .go-top:is(:hover, :focus) {
-    background: #F1D301;
+    background: #5501f1;
     color: white;
   }
   
@@ -3229,6 +3233,7 @@ width: 200px;
 .game-worlds-div{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 
@@ -3271,6 +3276,12 @@ width: 200px;
   
 }
 
+.home-img{
+  width:120px ;
+  height: 300px;
+}
+
+
   .notification{
     background-color: #f44336;
     color: white;
@@ -3296,6 +3307,8 @@ width: 200px;
   .btn-watch{
     font-size: 17px;
   }
+
+  
 
   .partners{
     height: 150px;
@@ -3491,6 +3504,11 @@ width: 200px;
     z-index: 1;
   }
 
+  .home-img{
+    width:130px ;
+    height: 300px;
+  }
+
   .about__stats{
     display: flex;
     justify-content: center;
@@ -3639,6 +3657,10 @@ width: 200px;
     clip-path: var(--polygon-3);
   }
 
+  .home-img{
+    width:170px ;
+    height: 400px;
+  }
 
   .notification{
     background-color: #f44336;
@@ -3662,6 +3684,7 @@ width: 200px;
   .game-worlds-div{
     display: flex;
     flex-direction: row;
+    align-items: normal;
   }
 
   .announcement {
@@ -3907,6 +3930,11 @@ width: 200px;
 
   .btn-watch{
     font-size: 21px;
+  }
+
+  .home-img{
+    width:250px ;
+    height: 600px;
   }
 
  .hero-title {
