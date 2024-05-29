@@ -813,21 +813,21 @@ window.addEventListener("scroll", reveal);
                 <div class="center-form">
              
                 
-                <div class="contact-form-background">
-                  <h2 class="form-title">تواصل معنا</h2>
-                  <script type="text/javascript">var sumbitted= false</script>
-                  <iframe name="Confirmation" id="Confirmation" style="display: none;" onload="if (sumbitted){window.location='confirmed-vote-reply-ar.html';}"></iframe>
-                <form id="myForm-contact" method="post" target="Confirmation" onsubmit="sumbitted=true" action="https://docs.google.com/forms/d/e/1FAIpQLSdhWv0SM_98LqvRHyR9J6lLWc6qbpxvCEWXv2gqUetcaOHDnQ/formResponse">
-                  <input name="entry.167280167" type="email" placeholder="البريد الإلكتروني" required>
-                  <input name="entry.2084437870" type="text" placeholder="عنوان الرسالة" required>
-                  <textarea name="entry.1657324574" class="field" cols="30" rows="10" placeholder="الرسالة" required></textarea>
-                  <h1 id="form-captcha">أنا لست روبوت: 15+10 =؟</h1>
-                  <input id="input-captcha"  type="number" placeholder="ادخل رقما" required>
-                  <button class="button_send" type="submit">Send</button>
-                 
-                </form>
-
-              </div>
+                  <div class="contact-form-background">
+                    <h2 class="form-title">تواصل معنا</h2>
+                    <script type="text/javascript">var sumbitted= false</script>
+                    <iframe name="Confirmation" id="Confirmation" style="display: none;" onload="if (sumbitted){window.location='/html/ar/confirmed-reply-ar.html';}"></iframe>
+                  <form id="myForm-contact" method="post" target="Confirmation" onsubmit="sumbitted=true" action="https://docs.google.com/forms/d/e/1FAIpQLSeycaK_GUBDucaAI7t7m5vtt4LT_E8f8m8PDOkb8vbIdzcUZw/formResponse">
+                    <input name="entry.1178728235" type="email" placeholder="البريد الإلكتروني" required>
+                    <input name="entry.240358415" type="text" placeholder="العنوان" required>
+                    <textarea name="entry.710537347" class="field" cols="30" rows="10" placeholder="الرسالة" required></textarea>
+                    <h1 id="form-captcha">أنا لست روبوت: 15+10=؟</h1>
+                    <input id="input-captcha"  type="number" placeholder="أدخل رقما" required>
+                    <button class="button_send" type="submit">إرسال</button>
+                   
+                  </form>
+  
+                </div>
                 <script>
                   const scriptURL = 'https://script.google.com/macros/s/AKfycbxwAO8HnA1EhY7ZiZ_JYLz9CNwaVCnFMakRCaSDDWkuaVMrqlu231a9_VJnkPglZnKu/exec'
                   const form = document.forms['submit-to-google-sheet']
