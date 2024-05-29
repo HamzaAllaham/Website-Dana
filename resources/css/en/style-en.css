@@ -446,7 +446,8 @@ height: 60px;
 
   .home-img{
     width: 250px;
-    height:600px
+    height:600px;
+    transform: scaleX(-1);
   }
 
 
@@ -1549,7 +1550,7 @@ height: 60px;
     color: white;
     width: 100%;
     margin-bottom: 30px;
-    text-align:right;
+    text-align:left;
     font-family:'Tajawal', sans-serif;
     
     
@@ -2375,7 +2376,7 @@ height: 60px;
 .card-description {
     font-size: 1rem;
     color: #DEE1FF;
-    text-align: right;
+    text-align: left;
     font-family: var(--ff-tajawal);
 }
 
@@ -2604,6 +2605,7 @@ height: 60px;
     padding: 20px 80px 20px 20px;
     position: relative;
     display: flex;
+    justify-content: flex-end;
     flex-direction: row-reverse;
     align-items: center;
     cursor: pointer;
@@ -2633,7 +2635,7 @@ height: 60px;
     color: rgb(116, 116, 116);
     padding: 0 20px 20px;
     line-height: 1.5rem;
-    text-align: right;
+    text-align: left;
     font-family: var(--ff-tajawal);
   }
   
@@ -2807,7 +2809,7 @@ height: 60px;
   margin: 15px;
   color: white;
   font-size: 30px;
-  text-align: right;
+  text-align: left;
   font-family: var(--ff-tajawal);
 }
 
@@ -2830,7 +2832,7 @@ width: 200px;
 .studio-content-div{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
 }
  
   
@@ -2892,7 +2894,7 @@ width: 200px;
     padding: 20px;
     font-size: 18px;
     font-family:var(--ff-tajawal);
-    text-align: right;
+    text-align: left;
   }
 
 
@@ -2909,7 +2911,7 @@ width: 200px;
     padding: 20px;
     color: rgb(0, 0, 0);
     font-family:var(--ff-tajawal);
-    text-align: right;
+    text-align: left;
     font-size: 18px;
   }
   
@@ -3267,7 +3269,6 @@ width: 200px;
 
   .vote-btn {
     margin-top: 10px;
-    margin-left: 10px;
     margin-right: 10px;
   }
 
@@ -3599,7 +3600,7 @@ width: 200px;
 
   .studio-div{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 
   .home-page-div{
@@ -3614,7 +3615,7 @@ width: 200px;
   .btn-group{
     display: flex;
     flex-direction: column-reverse;
-    align-items: flex-end;
+    align-items: flex-start;
   }
 
   .footer-social-list{
@@ -3893,7 +3894,7 @@ width: 200px;
 
   .studio-div{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
   
   .studio-img{
