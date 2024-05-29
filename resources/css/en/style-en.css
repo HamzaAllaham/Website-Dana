@@ -614,7 +614,7 @@ height: 60px;
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 
   
@@ -3921,7 +3921,7 @@ width: 200px;
 
   .home-page-div{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 
   .notification{
@@ -4016,7 +4016,7 @@ width: 200px;
     justify-content: flex-end;
     align-items: center;
     transition: 0.6s;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 
   .navbar-link {
